@@ -13,16 +13,20 @@
   border: none;
   margin-bottom: 0px;
   font-weight: $navbar-weight;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  width: 100%;
 }
 
 /* Optional class to fix the navbar on top */
-// .navbar-wagon-fixed {
-//   // position: fixed;
-//   left: 0px;
-//   top: 0px;
-//   z-index: 1;
-//   width: 100%;
-// }
+.navbar-wagon-fixed {
+  // position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  width: 100%;
+}
 
 .navbar-wagon-brand {
   width: 180px;
