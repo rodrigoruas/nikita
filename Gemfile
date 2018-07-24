@@ -30,7 +30,14 @@ gem 'bootstrap-sass'
 gem 'font-awesome-sass', '~> 5.0.9'
 gem 'simple_form'
 gem 'autoprefixer-rails'
-gem 'jquery-rails' # Add this line if you use Rails 5.1
+gem 'jquery-rails'
+
+gem 'dotenv-rails', groups: [:development, :test]
+
+gem 'cloudinary'
+
+gem 'figaro'
+ # Add this line if you use Rails 5.1
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password

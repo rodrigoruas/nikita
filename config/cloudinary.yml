@@ -1,0 +1,6 @@
+production:
+  cloud_name: "dib2nyadi"
+  api_key: "345988584121794"
+  api_secret: "CXi4Vpa3mW5d0BUpIW7DacMW8ds"
+  secure: true
+  cdn_subdomain: true
